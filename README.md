@@ -5,6 +5,7 @@ A simple shoppingcart implementation for Laravel is inspired from package gloude
 ## Requirement
 
 PHP: 7 or 8
+
 Laravel: 5.8 or latest version.
 
 ## Installation

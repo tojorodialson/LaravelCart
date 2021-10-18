@@ -2,12 +2,6 @@
 
 A simple shoppingcart implementation for Laravel is inspired from package gloudemans/shoppingcart.
 
-## Requirement
-
-PHP: 7 or 8
-
-Laravel: 5.8 or latest version.
-
 ## Installation
 
 Install the package through [Composer](http://getcomposer.org/). 
@@ -16,9 +10,6 @@ Run the Composer require command from the Terminal:
 
     composer require codise/laravelcart
 	
-    
-Should you still be on version 5.8 or latest version of Laravel, the final steps for you are to add the service provider of the package and alias the package. To do this open your `config/app.php` file.
-
 Add a new line to the `providers` array:
 
 	Codise\Shoppingcart\ShoppingcartServiceProvider::class
